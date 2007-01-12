@@ -1,0 +1,70 @@
+/*
+ * String Comapare
+ * Copyright (c) 2006, Triple Software
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, are 
+ * permitted provided that the following conditions are met:
+ * 
+ * - Redistributions of source code must retain the above copyright notice, this list 
+ *   of conditions and the following disclaimer.
+ * 
+ * - Redistributions in binary form must reproduce the above copyright notice, this list
+ *   of conditions and the following disclaimer in the documentation and/or other materials 
+ *   provided with the distribution.
+ * 
+ * - Neither the name of the Triple Software nor the names of its contributors may be used to 
+ *   endorse or promote products derived from this software without specific prior written 
+ *   permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &AS IS& AND ANY EXPRESS 
+ * OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY 
+ * AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER 
+ * IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
+ * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TripleSoftware.StringCompare
+{
+    /// <summary>
+    /// Abstract base class for Levenshtein compare algorithms
+    /// </summary>
+	public abstract class ALevenshtein : IStringCompare
+    {
+
+        /// <summary>
+        /// Return the lowest int form the array
+        /// </summary>
+        /// <param name="args">Array of ints</param>
+        /// <returns>Lowest int</returns>
+		protected int Minimum(params int[] args)
+        {
+            if( null ==  args) 
+                   return 0;
+            if( args.Length == 1)
+                return args[0];
+            
+            int mimimum = args[0];
+            foreach( int i in args  )
+                if( i < mimimum )
+                    mimimum = i;
+            return mimimum;
+        }
+
+		/// <summary>
+		/// Calculate the distance bewteen te gioven string
+		/// </summary>
+		/// <param name="orginale">Orginale srting</param>
+		/// <param name="compare">String to whcih to compare the orginal</param>
+		/// <returns>Distance according to the algorthm</returns>
+        public abstract int Compare(string orginale, string compare);
+             
+    }
+}

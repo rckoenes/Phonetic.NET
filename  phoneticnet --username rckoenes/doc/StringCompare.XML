@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringCompare</name>
+    </assembly>
+    <members>
+        <member name="T:TripleSoftware.StringCompare.ALevenshtein">
+            <summary>
+            Abstract base class for Levenshtein compare algorithms
+            </summary>
+        </member>
+        <member name="T:TripleSoftware.StringCompare.IStringCompare">
+            <summary>
+            Base class for string comapre class
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.StringCompare.IStringCompare.Compare(System.String,System.String)">
+            <summary>
+            Calculate the distance bewteen te gioven string
+            </summary>
+            <param name="orginale">Orginale srting</param>
+            <param name="compare">String to whcih to compare the orginal</param>
+            <returns>Distance according to the algorthm</returns>
+        </member>
+        <member name="M:TripleSoftware.StringCompare.ALevenshtein.Minimum(System.Int32[])">
+            <summary>
+            Return the lowest int form the array
+            </summary>
+            <param name="args">Array of ints</param>
+            <returns>Lowest int</returns>
+        </member>
+        <member name="M:TripleSoftware.StringCompare.ALevenshtein.Compare(System.String,System.String)">
+            <summary>
+            Calculate the distance bewteen te gioven string
+            </summary>
+            <param name="orginale">Orginale srting</param>
+            <param name="compare">String to whcih to compare the orginal</param>
+            <returns>Distance according to the algorthm</returns>
+        </member>
+        <member name="T:TripleSoftware.StringCompare.DamerauLevenshtein">
+            <summary>
+            Implementaion of the Damerau-Levenshtien string distance algorithm
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.StringCompare.DamerauLevenshtein.Compare(System.String,System.String)">
+            <summary>
+            Calculate the distance between the strings using the Damerau-Levenshtien algorithm
+            </summary>
+            <param name="orginale">Orginale srting</param>
+            <param name="compare">String to whcih to compare the orginal</param>
+            <returns>Distance between the strings</returns>
+        </member>
+        <member name="T:TripleSoftware.StringCompare.Levenshtein">
+            <summary>
+            Implementaion of the Levenshtein string distance algorithm
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.StringCompare.Levenshtein.Compare(System.String,System.String)">
+            <summary>
+            Calculate the distance between the strings using the Levenshtien algorithm
+            </summary>
+            <param name="orginale">Orginale srting</param>
+            <param name="compare">String to whcih to compare the orginal</param>
+            <returns>Distance between the strings</returns>
+        </member>
+    </members>
+</doc>

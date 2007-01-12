@@ -1,0 +1,552 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Phonetic</name>
+    </assembly>
+    <members>
+        <member name="T:TripleSoftware.Phonetic.IPhonetic">
+            <summary>
+            interface for phonetic functions
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.IPhonetic.GenerateKey(System.String)">
+            <summary>
+            Generate a key accourding to the used algoritm
+            </summary>
+            <param name="strInput">String from whihch to calculate the key</param>
+            <returns>Calculated key</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.IPhonetic.GenerateKey(System.String,System.Int32)">
+            <summary>
+            Generate a key with a differnt key length than the deafult for the use algoritm
+            </summary>
+            <param name="strInput">String from whihch to calculate the key</param>
+            <param name="keyLength">Length of the key to generate</param>
+            <returns>Calculated key</returns>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.IPhonetic.PrimaryKey">
+            <summary>
+            Get the primary key
+            </summary>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.IPhonetic.AlternateKey">
+            <summary>
+            Get the alternate key, if not present return the primary key
+            </summary>
+        </member>
+        <member name="T:TripleSoftware.Phonetic.Soundex">
+            <summary>
+            Implementation of the Russel soundex
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Soundex.GenerateKey(System.String)">
+            <summary>
+            generate a soundex key for the given string
+            The key length is set to default of 4
+            </summary>
+            <param name="strInput">String for which to compute the key</param>
+            <returns>primary key</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Soundex.GenerateKey(System.String,System.Int32)">
+            <summary>
+            generate a soundex key for the given string
+            </summary>
+            <param name="strInput">String for which to compute the key</param>
+            <param name="keyLength">Length of the key to generate</param>
+            <returns>primary key</returns>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.Soundex.PrimaryKey">
+            <summary>
+            Get the primary key
+            </summary>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.Soundex.AlternateKey">
+            <summary>
+            Get the alternate key, if not present return the primary key
+            </summary>
+        </member>
+        <member name="T:TripleSoftware.Phonetic.Metaphone">
+            <summary>
+            Metaphone phonetic algoritm.
+            
+            Created by Lawrence Philips. Metaphone presented
+            in article in "Computer Language" December 1990 issue.
+            </summary>
+        </member>
+        <member name="T:TripleSoftware.Phonetic.AMetaphone">
+            <summary>
+            Abstarct class for use with metaphone classes
+            Also used bij Daitch-Mokotoff soundex class.
+            </summary>
+        </member>
+        <member name="F:TripleSoftware.Phonetic.AMetaphone.input">
+            <summary>
+            The input string
+            </summary>
+        </member>
+        <member name="F:TripleSoftware.Phonetic.AMetaphone.inputLength">
+            <summary>
+            Total length of the input string
+            </summary>
+        </member>
+        <member name="F:TripleSoftware.Phonetic.AMetaphone.primaryKey">
+            <summary>
+            Primary key buffer
+            </summary>
+        </member>
+        <member name="F:TripleSoftware.Phonetic.AMetaphone.alternateKey">
+            <summary>
+            Alternate Key buffer
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.GenerateKey(System.String)">
+            <summary>
+            Generate the keys accourding to the used algorithm
+            </summary>
+            <param name="strInput">string to encrypt</param>
+            <returns>primary keyt</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.GenerateKey(System.String,System.Int32)">
+            <summary>
+            Generate the keys accourding to the used algorithm
+            with a fixed key length
+            </summary>
+            <param name="strInput">string to encrypt</param>
+            <param name="keyLength">Key length</param>
+            <returns>primary keyt</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.Reset">
+            <summary>
+            Reset the primaryKey, alternateKey and input;
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.CheckInput(System.String)">
+            <summary>
+            Do a simple check if the input can be computed
+            </summary>
+            <param name="strInput"></param>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.AddToKey(System.String)">
+            <summary>
+            Add a string to the key
+            </summary>
+            <param name="primary">string to add</param>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.AddToKey(System.String,System.String)">
+            <summary>
+            Add a string to the primaryKey en Alsternate key
+            </summary>
+            <param name="primary">string to add to the primary key</param>
+            <param name="alternate">string to add to the alternate key</param>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.IsChar(System.Int32,System.Char)">
+            <summary>
+            Check wheter the char at the given posirion is char given
+            </summary>
+            <param name="pos">Position of the char</param>
+            <param name="c">Char wich to check</param>
+            <returns>match</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.IsChar(System.Int32,System.Char[])">
+            <summary>
+            Check wheter the char matched any of the chars given
+            </summary>
+            <param name="pos">position od the char in th input string</param>
+            <param name="charList">array of char to match</param>
+            <returns>match</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.IsMatch(System.Int32,System.String)">
+            <summary>
+            Check id the a string te macth is present at the given position
+            </summary>
+            <param name="pos">position in the input string</param>
+            <param name="toMatch">String to match on the given position</param>
+            <returns></returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.AMetaphone.IsMatch(System.Int32,System.String[])">
+            <summary>
+            Check if any of the given matches match the string form the given position in the input string
+            </summary>
+            <param name="pos">position in the input string</param>
+            <param name="toMatch">Strings to match on the given position</param>
+            <returns></returns>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.AMetaphone.PrimaryKey">
+            <summary>
+            Get the primary key
+            </summary>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.AMetaphone.AlternateKey">
+            <summary>
+            Get the alternate key
+            If no alternate key is present the primary key is returned
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Metaphone.GenerateKey(System.String)">
+            <summary>
+            generate a metaphone key for the given string
+            Keylength is set to 4 as default for Metaphone
+            </summary>
+            <param name="strInput">String for which to compute the key</param>
+            <returns>primary key</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Metaphone.GenerateKey(System.String,System.Int32)">
+            <summary>
+            generate a metaphone key for the given string
+            </summary>
+            <param name="strInput">String for which to compute the key</param>
+            <param name="keyLength">Length of the key to generate</param>
+            <returns>primary key</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Metaphone.HandleC(System.Int32)">
+            <summary>
+            Complex letetr C routine
+            </summary>
+            <param name="i"></param>
+            <returns>positon in the inputstring</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Metaphone.HandleG(System.Int32)">
+            <summary>
+            Complex letter G routine
+            </summary>
+            <param name="i">positon in the inputstring</param>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Metaphone.HandleS(System.Int32)">
+            <summary>
+            Handle the letetr S
+            </summary>
+            <param name="i">positon in the inputstring</param>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Metaphone.HandleT(System.Int32)">
+            <summary>
+            Handle the letter T
+            </summary>
+            <param name="i">positon in the inputstring</param>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.Metaphone.IsVowel(System.Int32)">
+            <summary>
+            Check wheter the char at the given postion is a vowel
+            Vowels ar A,E,I,O,U
+            </summary>
+            <param name="pos">position in the input string</param>
+            <returns>Vowel or not</returns>
+        </member>
+        <member name="T:TripleSoftware.Phonetic.DaitchMokotoff">
+            <summary>
+            DAITCH-MOKOTOFF SOUNDEX SYSTEM WAS CREATED BY RANDY DAITCH AND GARY MOKOTOFF OF THE JEWISH GENEALOGICAL SOCIETY.
+            
+            Extends AMetphone because it uses all the same functions
+            Is not complete version of Daitch-Mokotoff, sometimes the algortime will produce more than two keys
+            Our implementation will only produce 2
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.GenerateKey(System.String)">
+            <summary>
+            generate a Daitch-Mokotoff Soundex key for the given string 
+            with the default length of 6
+            </summary>
+            <param name="strInput">String for which to compute the key</param>
+            <returns>primary key</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.GenerateKey(System.String,System.Int32)">
+            <summary>
+            generate a Daitch-Mokotoff Soundex key for the given string
+            </summary>
+            <param name="strInput">String for which to compute the key</param>
+            <param name="keyLength">Length of the key to generate</param>
+            <returns>primary key</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleZ(System.Int32)">
+            <summary>
+            Handle the Z
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleY(System.Int32)">
+            <summary>
+            Handle the Y
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleX(System.Int32)">
+            <summary>
+            Handle the X
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleU(System.Int32)">
+            <summary>
+            Handle the U
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleT(System.Int32)">
+            <summary>
+            Handle the T
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleS(System.Int32)">
+            <summary>
+            Handle the S
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleR(System.Int32)">
+            <summary>
+            Handle the R
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleP(System.Int32)">
+            <summary>
+            Handle the P
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleO(System.Int32)">
+            <summary>
+            Handle the O
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleN(System.Int32)">
+            <summary>
+            Handle the N
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleM(System.Int32)">
+            <summary>
+            Handle the M
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleK(System.Int32)">
+            <summary>
+            Handle the K
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleI(System.Int32)">
+            <summary>
+            Handle the I
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleH(System.Int32)">
+            <summary>
+            Handle the H
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleF(System.Int32)">
+            <summary>
+            Handle the F
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleE(System.Int32)">
+            <summary>
+            Handle the E
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleD(System.Int32)">
+            <summary>
+            Handle the D
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleC(System.Int32)">
+            <summary>
+            Handle the C
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.HandleA(System.Int32)">
+            <summary>
+            Handle the A
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DaitchMokotoff.IsVowel(System.Int32)">
+            <summary>
+            Check wheter the letter at the given position in the input string is a vowel
+            Vowels are A, E, I, O, U and Y
+            </summary>
+            <param name="pos">Position in the input string</param>
+            <returns>Vowel or not</returns>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.DaitchMokotoff.PrimaryKey">
+            <summary>
+            Get the primary key
+            </summary>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.DaitchMokotoff.AlternateKey">
+            <summary>
+            Get the alternate key
+            If no alternate key is present the primary key is returned
+            </summary>
+        </member>
+        <member name="T:TripleSoftware.Phonetic.DoubleMetaphone">
+            <summary>
+            Double Metaphone phonetic algoritm.
+            
+            Created by Lawrence Philips. 
+            Its implementation was described in the June 2000 issue of C/C++ Users Journal.
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.SetSlavoGermanic">
+            <summary>
+            Check if the input hase Slavo or Germanic roots
+            </summary>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.GenerateKey(System.String)">
+            <summary>
+            generate a double metaphone key for the given string
+            Keylength is set to 4 as default for Metaphone
+            </summary>
+            <param name="strInput">String for which to compute the key</param>
+            <returns>primary key</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.GenerateKey(System.String,System.Int32)">
+            <summary>
+            generate a double metaphone key for the given string
+            </summary>
+            <param name="strInput">String for which to compute the key</param>
+            <param name="keyLength">Length of the key to generate</param>
+            <returns>primary key</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleZ(System.Int32)">
+            <summary>
+            Handle the Z
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleX(System.Int32)">
+            <summary>
+            Handle the letetr X
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleW(System.Int32)">
+            <summary>
+            Handle the letter W
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleT(System.Int32)">
+            <summary>
+            Handle the letter T
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleS(System.Int32)">
+            <summary>
+            Handle the letter S
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleR(System.Int32)">
+            <summary>
+            Handle the letter R
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleP(System.Int32)">
+            <summary>
+            Handle the ltter R
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleM(System.Int32)">
+            <summary>
+            Handle the letter M
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleL(System.Int32)">
+            <summary>
+            Handle the letter L
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleJ(System.Int32)">
+            <summary>
+            Handle the letter J
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleH(System.Int32)">
+            <summary>
+            Handle the letter H
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleG(System.Int32)">
+            <summary>
+            Handle the letter G
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleD(System.Int32)">
+            <summary>
+            Handle the letter D
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string></returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.HandleC(System.Int32)">
+            <summary>
+            Handle the letter C
+            </summary>
+            <param name="i">Currunt postion in the input string</param>
+            <returns>new position in the string</returns>
+        </member>
+        <member name="M:TripleSoftware.Phonetic.DoubleMetaphone.IsVowel(System.Int32)">
+            <summary>
+            Check if the letter at the given position is a vowel
+            Vowels are E,A,I,O,U and Y
+            </summary>
+            <param name="i">position in input</param>
+            <returns>Vowel or not</returns>
+        </member>
+        <member name="P:TripleSoftware.Phonetic.DoubleMetaphone.IsSlavoGermanic">
+            <summary>
+            Hase the input string Slavo or Germanic roots
+            </summary>
+        </member>
+    </members>
+</doc>

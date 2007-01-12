@@ -1,0 +1,5623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPage1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
+  </data>
+  <data name="metaphoneLabel.Text" xml:space="preserve">
+    <value>&lt;no calculation&gt;</value>
+  </data>
+  <data name="alternateTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;soundexLabel.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="metaphoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="alternateTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="phoneticComboBox.Items2" xml:space="preserve">
+    <value>Metaphone</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="totaleTimeGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 7</value>
+  </data>
+  <data name="infoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="helpToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Orgineel</value>
+  </data>
+  <data name="totaleTimeGroupBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="compareTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label1.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="originaleTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="metaphoneLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputTextBox.Name" xml:space="preserve">
+    <value>inputTextBox</value>
+  </data>
+  <data name="dmetaphoneLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="infoLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="aboutToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="inputTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="responseTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
+  </data>
+  <data name="&gt;&gt;wordListTextBox.Name" xml:space="preserve">
+    <value>wordListTextBox</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;infoLabel.Name" xml:space="preserve">
+    <value>infoLabel</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="helpToolStripMenuItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="originaleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 40</value>
+  </data>
+  <data name="metaphoneLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label8.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="responseTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="&gt;&gt;metaphoneLabel.Name" xml:space="preserve">
+    <value>metaphoneLabel</value>
+  </data>
+  <data name="helpToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="helpToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>SizeToFit</value>
+  </data>
+  <data name="soundexLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="phoneticComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="alternateTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;metaphoneLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dmetaphoneLabel.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="inputTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="fileToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="closeToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuStrip1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;soundexLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="primaryTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;dmetaphoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="originaleTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="&gt;&gt;closeToolStripMenuItem.Name" xml:space="preserve">
+    <value>closeToolStripMenuItem</value>
+  </data>
+  <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="fuzzyComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>413, 409</value>
+  </data>
+  <data name="dmetaphoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="closeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="wordListTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;dmLabel.Name" xml:space="preserve">
+    <value>dmLabel</value>
+  </data>
+  <data name="closeButton.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="helpToolStripMenuItem1.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wordListTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="inputTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="tabPage2.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="label3.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;responseTextBox.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="dmLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 84</value>
+  </data>
+  <data name="dmetaphoneLabel.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fuzzyComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="wordListTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="aboutToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="soundexLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;originaleTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;inputTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="closeButton.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dmetaphoneLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="label7.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;originaleTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Name" xml:space="preserve">
+    <value>closeButton</value>
+  </data>
+  <data name="label14.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="compareTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label7.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="benaderingGroupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 272</value>
+  </data>
+  <data name="compareTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 66</value>
+  </data>
+  <data name="metaphoneLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="originaleTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="metaphoneLabel.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label9.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="fuzzyComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="compareTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="soundexLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dmLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="closeToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fuzzyComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 21</value>
+  </data>
+  <data name="dmLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="soundexLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dmLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="metaphoneLabel.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="groupBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="tabControl1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage1.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="tabControl1.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="infoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="infoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 39</value>
+  </data>
+  <data name="alternateTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="inputTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="compareTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 71</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="totaleTimeGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="totaleTimeGroupBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Algoritme</value>
+  </data>
+  <data name="phoneticComboBox.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="aboutToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>SizeToFit</value>
+  </data>
+  <data name="label16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label1.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="label14.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="fuzzyComboBox.Items1" xml:space="preserve">
+    <value>Damerau-Levenshtein</value>
+  </data>
+  <data name="tabControl1.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="responseTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="helpToolStripMenuItem1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="infoLabel.Text" xml:space="preserve">
+    <value>Measure the time in 
+milliseconds of each 
+algorimt
+</value>
+  </data>
+  <data name="closeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="menuStrip1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="inputTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="&gt;&gt;benaderingGroupBox2.Name" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="wordListTextBox.Text" xml:space="preserve">
+    <value>Remmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+Fan
+Feather
+Festival
+Film
+Finger
+Fire
+Floodlight
+Flower
+Foot
+Fork
+Freeway
+Fruit
+Fungus
+Game
+Garden
+Gas
+Gate
+Gemstone
+Girl
+Gloves
+God
+Grapes
+Guitar
+Hammer
+Hat
+Hieroglyph
+Highway
+Horoscope
+Horse
+Hose
+Ice
+Ice-cream
+Insect
+Jet fighter
+Junk
+Kaleidoscope
+Kitchen
+Knife
+Leather jacket
+Leg
+Library
+Liquid
+Magnet
+Man
+Map
+Maze
+Meat
+Meteor
+Microscope
+Milk
+Milkshake
+Mist
+Money
+Monster
+Mosquito
+Mouth
+Nail
+Navy
+Necklace
+Needle
+Onion
+PaintBrush
+Pants
+Parachute
+Passport
+Pebble
+Pendulum
+Pepper
+Perfume
+Pillow
+Plane
+Planet
+Pocket
+Post-office
+Potato
+Printer
+Prison
+Pyramid
+Radar
+Rainbow
+Record
+Restaurant
+Rifle
+Ring
+Robot
+Rock
+Rocket
+Roof
+Room
+Rope
+Saddle
+Salt
+Sandpaper
+Sandwich
+Satellite
+School
+Sex
+Ship
+Shoes
+Shop
+Shower
+Signature
+Skeleton
+Slave
+Snail
+Software
+Solid
+Space Shuttle
+Spectrum
+Sphere
+Spice
+Spiral
+Spoon
+Sports-car
+Spot Light
+Square
+Staircase
+Star
+Stomach
+Sun
+Sunglasses
+Surveyor
+Swimming Pool
+Sword
+Table
+Tapestry
+Teeth
+Telescope
+Television
+Tennis racquet
+Thermometer
+Tiger
+Toilet
+Tongue
+Torch
+Torpedo
+Train
+Treadmill
+Triangle
+Tunnel
+Typewriter
+Umbrella
+Vacuum
+Vampire
+Videotape
+Vulture
+Water
+Weapon
+Web
+Wheelchair
+Window
+Woman
+Worm
+X-ray
+Remmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+FanRemmelt
+Koenes
+Basic
+Ornage
+Amsterdam
+firefox
+Internet Explorer
+wereld
+Adult
+Aeroplane
+Air
+Aircraft Carrier
+Airforce
+Airport
+Album
+Alphabet
+Apple
+Arm
+Army
+Baby
+Baby
+Backpack
+Balloon
+Banana
+Bank
+Barbecue
+Bathroom
+Bathtub
+Bed
+Bed
+Bee
+Bible
+Bible
+Bird
+Bomb
+Book
+Boss
+Bottle
+Bowl
+Box
+Boy
+Brain
+Bridge
+Butterfly
+Button
+Cappuccino
+Car
+Car-race
+Carpet
+Carrot
+Cave
+Chair
+Chess Board
+Chief
+Child
+Chisel
+Chocolates
+Church
+Church
+Circle
+Circus
+Circus
+Clock
+Clown
+Coffee
+Coffee-shop
+Comet
+Compact Disc
+Compass
+Computer
+Crystal
+Cup
+Cycle
+Data Base
+Desk
+Diamond
+Dress
+Drill
+Drink
+Drum
+Dung
+Ears
+Earth
+Egg
+Electricity
+Elephant
+Eraser
+Explosive
+Eyes
+Family
+Fan</value>
+  </data>
+  <data name="&gt;&gt;dmetaphoneLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="helpToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="aboutToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="primaryTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tabPage2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;compareTextBox.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;compareTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="soundexLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="alternateTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="totaleTimeGroupBox.Text" xml:space="preserve">
+    <value>Totale Time</value>
+  </data>
+  <data name="tabPage1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="closeToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="label16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dmLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="infoLabel.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="fileToolStripMenuItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="fileToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>SizeToFit</value>
+  </data>
+  <data name="closeToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="tabPage1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tabPage2.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="compareTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="soundexLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="tabPage1.ToolTipText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="metaphoneLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="soundexLabel.Text" xml:space="preserve">
+    <value>&lt;no calculation&gt;</value>
+  </data>
+  <data name="closeToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="responseTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="benaderingGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="metaphoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 126</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label14.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;closeButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="totaleTimeGroupBox.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="label5.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="compareTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Daitch-mokotoff</value>
+  </data>
+  <data name="helpToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fuzzyComboBox.Items" xml:space="preserve">
+    <value>Levenshtein</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="soundexLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="infoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="helpToolStripMenuItem1.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;originaleTextBox.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="alternateTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;fuzzyComboBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="label7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;dmetaphoneLabel.Name" xml:space="preserve">
+    <value>dmetaphoneLabel</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="compareTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;wordListTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;primaryTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dmLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="infoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="metaphoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="phoneticComboBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dmLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label6.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 147</value>
+  </data>
+  <data name="closeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="helpToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="compareTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 95</value>
+  </data>
+  <data name="&gt;&gt;fuzzyComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="label14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dmetaphoneLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dmetaphoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="menuStrip1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="dmLabel.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metaphoneLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="inputTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="aboutToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="compareTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tabControl1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="helpToolStripMenuItem1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="label8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="primaryTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="wordListTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="primaryTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="closeToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="benaderingGroupBox2.Text" xml:space="preserve">
+    <value>Benaderings Functie </value>
+  </data>
+  <data name="inputTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fileToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="responseTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fuzzyComboBox.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="benaderingGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="soundexLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;dmLabel.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="dmetaphoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="label16.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="button1.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="inputTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="originaleTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="totaleTimeGroupBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="responseTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="alternateTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
+  </data>
+  <data name="originaleTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;soundexLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="originaleTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label14.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="closeButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;phoneticComboBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 6</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="aboutToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="compareTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="originaleTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>413, 24</value>
+  </data>
+  <data name="button1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="label4.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Vergelijking</value>
+  </data>
+  <data name="&gt;&gt;benaderingGroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;fuzzyComboBox.Name" xml:space="preserve">
+    <value>fuzzyComboBox</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 291</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Metaphone</value>
+  </data>
+  <data name="benaderingGroupBox2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="phoneticComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 14</value>
+  </data>
+  <data name="fuzzyComboBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="phoneticComboBox.Items3" xml:space="preserve">
+    <value>Double Metaphone</value>
+  </data>
+  <data name="aboutToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="alternateTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label5.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="helpToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="closeButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;benaderingGroupBox2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="alternateTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>List for words</value>
+  </data>
+  <data name="inputTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="inputTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 7</value>
+  </data>
+  <data name="&gt;&gt;alternateTextBox.Name" xml:space="preserve">
+    <value>alternateTextBox</value>
+  </data>
+  <data name="fileToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 124</value>
+  </data>
+  <data name="helpToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="inputTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 41</value>
+  </data>
+  <data name="responseTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;totaleTimeGroupBox.Name" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="fuzzyComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metaphoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wordListTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="benaderingGroupBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dmLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="closeButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Uitkomst</value>
+  </data>
+  <data name="&gt;&gt;infoLabel.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="primaryTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;wordListTextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="phoneticComboBox.Items1" xml:space="preserve">
+    <value>Daitch-Mokotoff Soundex</value>
+  </data>
+  <data name="helpToolStripMenuItem1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="menuStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="label6.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="phoneticComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 21</value>
+  </data>
+  <data name="alternateTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="fileToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="metaphoneLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;primaryTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="responseTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="groupBox2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 69</value>
+  </data>
+  <data name="tabPage1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label12.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="phoneticComboBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="totaleTimeGroupBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="inputTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="dmetaphoneLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Explorer Functions</value>
+  </data>
+  <data name="originaleTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 163</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="infoLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="wordListTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;responseTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="benaderingGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 121</value>
+  </data>
+  <data name="primaryTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="label3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;totaleTimeGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;alternateTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dmLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="primaryTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="soundexLabel.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="alternateTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 95</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="inputTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;phoneticComboBox.Name" xml:space="preserve">
+    <value>phoneticComboBox</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tabControl1.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>Normal</value>
+  </data>
+  <data name="fileToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="fileToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label7.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="dmLabel.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="label16.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label16.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="dmLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="button1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="originaleTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label8.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="responseTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="compareTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
+  </data>
+  <data name="fuzzyComboBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="closeButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;metaphoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="soundexLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="&gt;&gt;metaphoneLabel.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem1.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem1</value>
+  </data>
+  <data name="wordListTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label2.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="aboutToolStripMenuItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bestand</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="responseTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="phoneticComboBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="closeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="alternateTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;fuzzyComboBox.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Fonetische Functies</value>
+  </data>
+  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="primaryTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="dmetaphoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 168</value>
+  </data>
+  <data name="label9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="wordListTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="totaleTimeGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="alternateTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;wordListTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="closeButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;alternateTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;benaderingGroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="benaderingGroupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="benaderingGroupBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="helpToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="aboutToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="dmLabel.Text" xml:space="preserve">
+    <value>&lt;no calculation&gt;</value>
+  </data>
+  <data name="fileToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="helpToolStripMenuItem1.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;alternateTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;totaleTimeGroupBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="responseTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;phoneticComboBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 44</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 105</value>
+  </data>
+  <data name="closeToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>SizeToFit</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fuzzyComboBox.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dmetaphoneLabel.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="closeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="helpToolStripMenuItem1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tabPage2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fuzzyComboBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="responseTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tekst</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 98</value>
+  </data>
+  <data name="label5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="wordListTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>413, 340</value>
+  </data>
+  <data name="infoLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dmLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="phoneticComboBox.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label12.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="groupBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="helpToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="phoneticComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="closeToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;compareTextBox.Name" xml:space="preserve">
+    <value>compareTextBox</value>
+  </data>
+  <data name="primaryTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
+  </data>
+  <data name="closeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 374</value>
+  </data>
+  <data name="closeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fuzzyComboBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="label9.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="soundexLabel.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="tabControl1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="originaleTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Sluiten</value>
+  </data>
+  <data name="infoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 216</value>
+  </data>
+  <data name="&gt;&gt;compareTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="dmetaphoneLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="menuStrip1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;infoLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 314</value>
+  </data>
+  <data name="primaryTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="infoLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="originaleTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;infoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dmLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="dmetaphoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="responseTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="benaderingGroupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;responseTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dmetaphoneLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="originaleTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dmLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FuzzyString</value>
+  </data>
+  <data name="&gt;&gt;originaleTextBox.Name" xml:space="preserve">
+    <value>originaleTextBox</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Algoritme</value>
+  </data>
+  <data name="phoneticComboBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Alternatief</value>
+  </data>
+  <data name="infoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="button1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabControl1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="soundexLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="label5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="fileToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="primaryTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 68</value>
+  </data>
+  <data name="closeButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="label8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="benaderingGroupBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="wordListTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="closeToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;soundexLabel.Name" xml:space="preserve">
+    <value>soundexLabel</value>
+  </data>
+  <data name="label7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="infoLabel.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabPage1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="soundexLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 314</value>
+  </data>
+  <data name="originaleTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="helpToolStripMenuItem1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Speed test</value>
+  </data>
+  <data name="closeToolStripMenuItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="responseTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 92</value>
+  </data>
+  <data name="groupBox1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Uitkomst</value>
+  </data>
+  <data name="wordListTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="primaryTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabPage2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="compareTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="alternateTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label3.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="wordListTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="helpToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="label12.ImageKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="primaryTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="helpToolStripMenuItem1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="compareTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="phoneticComboBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="totaleTimeGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 206</value>
+  </data>
+  <data name="dmetaphoneLabel.Text" xml:space="preserve">
+    <value>&lt;no calculation&gt;</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Soundex</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="inputTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="fuzzyComboBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;responseTextBox.Name" xml:space="preserve">
+    <value>responseTextBox</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="metaphoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;phoneticComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wordListTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 272</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="wordListTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="phoneticComboBox.Items" xml:space="preserve">
+    <value>Soundex</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;primaryTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="closeButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="primaryTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="totaleTimeGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;primaryTextBox.Name" xml:space="preserve">
+    <value>primaryTextBox</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="label9.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Double Metaphone</value>
+  </data>
+  <data name="helpToolStripMenuItem1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>SizeToFit</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;inputTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;totaleTimeGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="phoneticComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabPage2.ToolTipText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="closeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>English</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+</root>

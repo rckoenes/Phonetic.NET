@@ -1,0 +1,23 @@
+<project SchemaVersion="1.3">
+    <assemblies>
+        <assembly location=".\Phonetic\bin\Debug\Phonetic.dll" documentation=".\Phonetic\bin\Doc\Phonetic.XML" />
+    </assemblies>
+    <documenters>
+        <documenter name="MSDN">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="HtmlHelpName" value="Documentation" />
+            <property name="Title" value="An NDoc Documented Class Library" />
+        </documenter>
+        <documenter name="VS.NET 2003">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="HtmlHelpName" value="Documentation" />
+            <property name="Title" value="An NDoc documented library" />
+        </documenter>
+        <documenter name="MSDN 2003">
+            <property name="OutputDirectory" value=".\doc\" />
+            <property name="HtmlHelpName" value="Phonetic" />
+            <property name="Title" value="Phonetic Algorithm Library" />
+            <property name="FeedbackEmailAddress" value="remmelt@basicorange.nl" />
+        </documenter>
+    </documenters>
+</project>
