@@ -10,7 +10,7 @@
     <NoStdLib>False</NoStdLib>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <SignAssembly>True</SignAssembly>
+    <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>..\TripleSoftware.snk</AssemblyOriginatorKeyFile>
     <DelaySign>False</DelaySign>
     <AssemblyOriginatorKeyMode>File</AssemblyOriginatorKeyMode>
@@ -54,6 +54,9 @@
     <Compile Include="DaitchMokotoff.cs" />
     <Compile Include="DoubleMetaphone.cs" />
     <Compile Include="AMetaphone.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phonetic.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>

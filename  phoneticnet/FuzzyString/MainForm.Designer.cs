@@ -97,7 +97,7 @@
 									this.helpToolStripMenuItem});
 			this.menuStrip1.Location = ((System.Drawing.Point)(resources.GetObject("menuStrip1.Location")));
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+			this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
 			this.menuStrip1.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("menuStrip1.RightToLeft")));
 			this.menuStrip1.Size = ((System.Drawing.Size)(resources.GetObject("menuStrip1.Size")));
 			this.menuStrip1.TabIndex = ((int)(resources.GetObject("menuStrip1.TabIndex")));

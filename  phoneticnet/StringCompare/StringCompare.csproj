@@ -11,7 +11,7 @@
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <DocumentationFile>..\Doc\StringCompare.XML</DocumentationFile>
-    <SignAssembly>True</SignAssembly>
+    <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>..\TripleSoftware.snk</AssemblyOriginatorKeyFile>
     <DelaySign>False</DelaySign>
     <AssemblyOriginatorKeyMode>File</AssemblyOriginatorKeyMode>
@@ -51,6 +51,9 @@
     <Compile Include="IStringCompare.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Levenshtein.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StringCompare.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>

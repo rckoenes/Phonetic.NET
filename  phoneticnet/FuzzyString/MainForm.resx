@@ -117,18 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tabPage1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>WindowsDefaultLocation</value>
-  </data>
   <data name="metaphoneLabel.Text" xml:space="preserve">
     <value>&lt;no calculation&gt;</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="alternateTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Left</value>
+  </data>
+  <data name="phoneticComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="&gt;&gt;soundexLabel.Parent" xml:space="preserve">
     <value>totaleTimeGroupBox</value>
@@ -137,9 +134,8 @@
   <data name="button1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="metaphoneLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="closeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="alternateTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
     <value>None</value>
@@ -156,20 +152,21 @@
   <data name="totaleTimeGroupBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 7</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="infoLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="helpToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Orgineel</value>
   </data>
+  <data name="label5.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
   <data name="totaleTimeGroupBox.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="compareTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
   </data>
   <data name="label1.ImageKey" xml:space="preserve">
     <value />
@@ -177,20 +174,17 @@
   <data name="originaleTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="metaphoneLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;inputTextBox.Name" xml:space="preserve">
     <value>inputTextBox</value>
   </data>
-  <data name="dmetaphoneLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
-  </data>
-  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="label16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -222,6 +216,9 @@
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
   <data name="&gt;&gt;infoLabel.Name" xml:space="preserve">
     <value>infoLabel</value>
   </data>
@@ -237,9 +234,6 @@
   <data name="originaleTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 40</value>
   </data>
-  <data name="metaphoneLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
@@ -252,17 +246,11 @@
   <data name="&gt;&gt;metaphoneLabel.Name" xml:space="preserve">
     <value>metaphoneLabel</value>
   </data>
-  <data name="helpToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="&gt;&gt;dmetaphoneLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
-  </data>
-  <data name="helpToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>SizeToFit</value>
-  </data>
-  <data name="soundexLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="phoneticComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -288,16 +276,13 @@
   <data name="dmetaphoneLabel.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="inputTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 272</value>
   </data>
   <data name="fileToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="closeToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="menuStrip1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
@@ -309,26 +294,26 @@
   <data name="primaryTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
   </data>
+  <data name="label5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="&gt;&gt;dmetaphoneLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tabPage2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="originaleTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 43</value>
+  <data name="label6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="&gt;&gt;closeToolStripMenuItem.Name" xml:space="preserve">
     <value>closeToolStripMenuItem</value>
+  </data>
+  <data name="originaleTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fuzzyComboBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
@@ -336,20 +321,17 @@
   <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="fuzzyComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 13</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 13</value>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>413, 409</value>
   </data>
-  <data name="dmetaphoneLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 13</value>
-  </data>
-  <data name="closeButton.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="wordListTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
   </data>
   <data name="wordListTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Left</value>
@@ -360,26 +342,20 @@
   <data name="closeButton.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="label12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="helpToolStripMenuItem1.ShowShortcutKeys" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="wordListTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
-  </data>
   <data name="inputTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
-  </data>
-  <data name="tabPage2.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="label3.ImageKey" xml:space="preserve">
     <value />
@@ -405,8 +381,8 @@
   <data name="label9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="wordListTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
+  <data name="alternateTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 95</value>
   </data>
   <data name="label1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
@@ -417,14 +393,8 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
-  <data name="soundexLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;originaleTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;inputTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tabPage2.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="label4.ImageKey" xml:space="preserve">
     <value />
@@ -444,11 +414,8 @@
   <data name="label7.ImageKey" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;originaleTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="wordListTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
   </data>
   <data name="&gt;&gt;closeButton.Name" xml:space="preserve">
     <value>closeButton</value>
@@ -465,20 +432,17 @@
   <data name="benaderingGroupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>306, 272</value>
-  </data>
   <data name="compareTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 66</value>
-  </data>
-  <data name="metaphoneLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
   </data>
   <data name="&gt;&gt;label14.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -495,13 +459,13 @@
   <data name="label9.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="fuzzyComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="tabPage2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
-  <data name="button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="soundexLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="compareTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -516,8 +480,8 @@
   <data name="closeToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="fuzzyComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 21</value>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
   </data>
   <data name="dmLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -528,14 +492,17 @@
   <data name="soundexLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="dmLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="metaphoneLabel.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="groupBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;benaderingGroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="responseTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 92</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -546,14 +513,11 @@
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="tabControl1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabPage1.ImageKey" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;label12.Name" xml:space="preserve">
     <value>label12</value>
@@ -564,8 +528,8 @@
   <data name="infoLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="infoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 39</value>
+  <data name="helpToolStripMenuItem1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="alternateTextBox.MaxLength" type="System.Int32, mscorlib">
     <value>32767</value>
@@ -573,13 +537,7 @@
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 20</value>
   </data>
-  <data name="inputTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
-  </data>
   <data name="compareTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
-  </data>
-  <data name="label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
@@ -588,32 +546,17 @@
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 71</value>
   </data>
-  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="totaleTimeGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="label2.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="totaleTimeGroupBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Algoritme</value>
-  </data>
   <data name="phoneticComboBox.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>8</value>
-  </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
-    <value>totaleTimeGroupBox</value>
   </data>
   <data name="aboutToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>SizeToFit</value>
@@ -633,14 +576,11 @@
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="totaleTimeGroupBox.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
   </data>
   <data name="fuzzyComboBox.Items1" xml:space="preserve">
     <value>Damerau-Levenshtein</value>
-  </data>
-  <data name="tabControl1.ShowToolTips" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="responseTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value />
@@ -654,17 +594,14 @@ milliseconds of each
 algorimt
 </value>
   </data>
-  <data name="closeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
   <data name="menuStrip1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
   </data>
   <data name="label4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
   </data>
-  <data name="inputTextBox.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
   </data>
   <data name="&gt;&gt;benaderingGroupBox2.Name" xml:space="preserve">
     <value>benaderingGroupBox2</value>
@@ -3979,14 +3916,23 @@ Eyes
 Family
 Fan</value>
   </data>
+  <data name="responseTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
   <data name="&gt;&gt;dmetaphoneLabel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="helpToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="fuzzyComboBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="primaryTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
   </data>
   <data name="label4.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -3997,8 +3943,8 @@ Fan</value>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="originaleTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4012,17 +3958,17 @@ Fan</value>
   <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStripMenuItem1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
   </data>
   <data name="&gt;&gt;compareTextBox.Parent" xml:space="preserve">
     <value>benaderingGroupBox2</value>
   </data>
-  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
   </data>
-  <data name="&gt;&gt;compareTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -4042,23 +3988,23 @@ Fan</value>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox2.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 23</value>
   </data>
   <data name="closeToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
   </data>
-  <data name="label16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="closeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="dmLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dmetaphoneLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4066,14 +4012,20 @@ Fan</value>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 17</value>
   </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
   <data name="infoLabel.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="fileToolStripMenuItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="fileToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>SizeToFit</value>
+  <data name="label2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="helpToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
   </data>
   <data name="closeToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
@@ -4081,35 +4033,35 @@ Fan</value>
   <data name="tabPage1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="tabPage2.ImageKey" xml:space="preserve">
-    <value />
-  </data>
   <data name="compareTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="soundexLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 13</value>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="tabPage1.ToolTipText" xml:space="preserve">
-    <value />
+  <data name="phoneticComboBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
-  <data name="tabPage1.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="metaphoneLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="fuzzyComboBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
   <data name="soundexLabel.Text" xml:space="preserve">
     <value>&lt;no calculation&gt;</value>
   </data>
-  <data name="closeToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="responseTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="benaderingGroupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -4117,11 +4069,8 @@ Fan</value>
   <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="metaphoneLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 126</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="dmLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4129,35 +4078,38 @@ Fan</value>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="alternateTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="label14.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="infoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="primaryTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 68</value>
+  </data>
+  <data name="&gt;&gt;dmetaphoneLabel.Name" xml:space="preserve">
+    <value>dmetaphoneLabel</value>
+  </data>
+  <data name="originaleTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;closeButton.ZOrder" xml:space="preserve">
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;compareTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="totaleTimeGroupBox.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowOnly</value>
-  </data>
-  <data name="label5.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
   </data>
   <data name="compareTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>Daitch-mokotoff</value>
+  <data name="wordListTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="helpToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>None</value>
@@ -4177,8 +4129,8 @@ Fan</value>
   <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="soundexLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 42</value>
+  <data name="&gt;&gt;phoneticComboBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="infoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4186,11 +4138,17 @@ Fan</value>
   <data name="label9.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="helpToolStripMenuItem1.Enabled" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="inputTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="closeToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;originaleTextBox.Parent" xml:space="preserve">
     <value>benaderingGroupBox2</value>
+  </data>
+  <data name="helpToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="alternateTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
@@ -4198,20 +4156,14 @@ Fan</value>
   <data name="&gt;&gt;fuzzyComboBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>totaleTimeGroupBox</value>
-  </data>
   <data name="label7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
-  </data>
-  <data name="&gt;&gt;dmetaphoneLabel.Name" xml:space="preserve">
-    <value>dmetaphoneLabel</value>
   </data>
   <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="compareTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>None</value>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
   </data>
   <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -4228,32 +4180,38 @@ Fan</value>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
   <data name="&gt;&gt;primaryTextBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="dmLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="infoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="metaphoneLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="fuzzyComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="tabPage1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
+  <data name="phoneticComboBox.Items" xml:space="preserve">
+    <value>Soundex</value>
+  </data>
   <data name="phoneticComboBox.IntegralHeight" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="&gt;&gt;dmLabel.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="label6.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;totaleTimeGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 147</value>
@@ -4276,14 +4234,11 @@ Fan</value>
   <data name="&gt;&gt;fuzzyComboBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
+  <data name="soundexLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
   </data>
-  <data name="label14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="dmetaphoneLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="dmetaphoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4297,11 +4252,8 @@ Fan</value>
   <data name="label5.ImageKey" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="metaphoneLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
   </data>
   <data name="inputTextBox.WordWrap" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4309,14 +4261,11 @@ Fan</value>
   <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
+  <data name="&gt;&gt;originaleTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="aboutToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
-  </data>
-  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="compareTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -4333,9 +4282,6 @@ Fan</value>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="helpToolStripMenuItem1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -4348,14 +4294,17 @@ Fan</value>
   <data name="primaryTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="wordListTextBox.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
+  <data name="label14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="dmetaphoneLabel.Text" xml:space="preserve">
+    <value>&lt;no calculation&gt;</value>
   </data>
   <data name="primaryTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>benaderingGroupBox2</value>
+  <data name="dmetaphoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="closeToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4363,8 +4312,8 @@ Fan</value>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>benaderingGroupBox2</value>
   </data>
-  <data name="benaderingGroupBox2.Text" xml:space="preserve">
-    <value>Benaderings Functie </value>
+  <data name="metaphoneLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="inputTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
     <value>None</value>
@@ -4372,19 +4321,16 @@ Fan</value>
   <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="label3.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="fileToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="responseTextBox.WordWrap" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="fuzzyComboBox.MaxLength" type="System.Int32, mscorlib">
@@ -4396,29 +4342,14 @@ Fan</value>
   <data name="soundexLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
   </data>
-  <data name="&gt;&gt;dmLabel.Parent" xml:space="preserve">
-    <value>totaleTimeGroupBox</value>
-  </data>
-  <data name="dmetaphoneLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
   <data name="label16.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="button1.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="inputTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
-  </data>
-  <data name="originaleTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
-  </data>
-  <data name="totaleTimeGroupBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
   </data>
   <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4426,14 +4357,14 @@ Fan</value>
   <data name="responseTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="wordListTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
-  <data name="alternateTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 20</value>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 7</value>
   </data>
-  <data name="originaleTextBox.WordWrap" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;soundexLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4444,16 +4375,16 @@ Fan</value>
   <data name="originaleTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="label14.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="closeButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="closeToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;phoneticComboBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="groupBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="label8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
@@ -4462,14 +4393,14 @@ Fan</value>
   <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
+  <data name="&gt;&gt;wordListTextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
   <data name="aboutToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="compareTextBox.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="originaleTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value />
@@ -4489,17 +4420,17 @@ Fan</value>
   <data name="&gt;&gt;benaderingGroupBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
-  </data>
   <data name="label4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="&gt;&gt;fuzzyComboBox.Name" xml:space="preserve">
     <value>fuzzyComboBox</value>
   </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 291</value>
+  <data name="closeButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="tabPage2.ToolTipText" xml:space="preserve">
+    <value />
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Metaphone</value>
@@ -4507,26 +4438,26 @@ Fan</value>
   <data name="benaderingGroupBox2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+  <data name="helpToolStripMenuItem1.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metaphoneLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="tabPage1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="responseTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="phoneticComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 14</value>
-  </data>
-  <data name="fuzzyComboBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
-  </data>
-  <data name="phoneticComboBox.Items3" xml:space="preserve">
-    <value>Double Metaphone</value>
-  </data>
-  <data name="aboutToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
   </data>
   <data name="label4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="alternateTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -4537,17 +4468,20 @@ Fan</value>
   <data name="helpToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 22</value>
   </data>
-  <data name="closeButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;phoneticComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="tabControl1.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="&gt;&gt;benaderingGroupBox2.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
-  <data name="alternateTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
@@ -4558,26 +4492,38 @@ Fan</value>
   <data name="inputTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 63</value>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="inputTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 7</value>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="soundexLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;alternateTextBox.Name" xml:space="preserve">
     <value>alternateTextBox</value>
   </data>
-  <data name="fileToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tabControl1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="closeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>388, 124</value>
@@ -4585,17 +4531,14 @@ Fan</value>
   <data name="helpToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="inputTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 41</value>
+  <data name="inputTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="responseTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;totaleTimeGroupBox.Name" xml:space="preserve">
-    <value>totaleTimeGroupBox</value>
-  </data>
-  <data name="fuzzyComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="metaphoneLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 13</value>
@@ -4603,20 +4546,20 @@ Fan</value>
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="wordListTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="benaderingGroupBox2.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;dmLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
   <data name="closeButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -4627,32 +4570,29 @@ Fan</value>
   <data name="&gt;&gt;infoLabel.Parent" xml:space="preserve">
     <value>tabPage2</value>
   </data>
-  <data name="primaryTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Left</value>
+  <data name="&gt;&gt;totaleTimeGroupBox.Name" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
   </data>
   <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="&gt;&gt;wordListTextBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
   <data name="phoneticComboBox.Items1" xml:space="preserve">
     <value>Daitch-Mokotoff Soundex</value>
   </data>
-  <data name="helpToolStripMenuItem1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
+  <data name="fileToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
-  <data name="menuStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 291</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="responseTextBox.WordWrap" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="originaleTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 13</value>
@@ -4660,17 +4600,14 @@ Fan</value>
   <data name="label6.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="phoneticComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 21</value>
+  <data name="&gt;&gt;originaleTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="alternateTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="label16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
-  <data name="fileToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
-    <value>helpToolStripMenuItem</value>
+  <data name="phoneticComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 14</value>
   </data>
   <data name="metaphoneLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
@@ -4678,14 +4615,14 @@ Fan</value>
   <data name="&gt;&gt;primaryTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="label2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="soundexLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="responseTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="fileToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>SizeToFit</value>
   </data>
-  <data name="groupBox2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowOnly</value>
+  <data name="&gt;&gt;closeButton.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 69</value>
@@ -4696,20 +4633,23 @@ Fan</value>
   <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="alternateTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
   <data name="label12.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="phoneticComboBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="totaleTimeGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 13</value>
+  <data name="metaphoneLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 126</value>
   </data>
-  <data name="totaleTimeGroupBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="groupBox2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
   </data>
-  <data name="inputTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="tabPage2.ImageKey" xml:space="preserve">
+    <value />
   </data>
   <data name="dmetaphoneLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -4720,17 +4660,23 @@ Fan</value>
   <data name="originaleTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>299, 20</value>
   </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 163</value>
   </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
   <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>benaderingGroupBox2</value>
+  <data name="helpToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>SizeToFit</value>
   </data>
   <data name="infoLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
@@ -4738,26 +4684,23 @@ Fan</value>
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="wordListTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
   </data>
-  <data name="&gt;&gt;responseTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="dmetaphoneLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="helpToolStripMenuItem1.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="benaderingGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>388, 121</value>
   </data>
-  <data name="primaryTextBox.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
+  <data name="tabPage1.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="closeButton.Text" xml:space="preserve">
     <value>Sluiten</value>
-  </data>
-  <data name="label3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
   </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>benaderingGroupBox2</value>
@@ -4765,17 +4708,14 @@ Fan</value>
   <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="&gt;&gt;totaleTimeGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;alternateTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dmLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="label12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="primaryTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value />
@@ -4783,8 +4723,11 @@ Fan</value>
   <data name="soundexLabel.ImageKey" xml:space="preserve">
     <value />
   </data>
-  <data name="alternateTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 95</value>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -4792,23 +4735,23 @@ Fan</value>
   <data name="inputTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;phoneticComboBox.Name" xml:space="preserve">
-    <value>phoneticComboBox</value>
+  <data name="phoneticComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 21</value>
   </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="tabControl1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="tabControl1.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
-    <value>Normal</value>
-  </data>
   <data name="fileToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="helpToolStripMenuItem.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
   <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
     <value>tabControl1</value>
@@ -4828,8 +4771,8 @@ Fan</value>
   <data name="label16.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="dmLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="compareTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="button1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
@@ -4840,8 +4783,8 @@ Fan</value>
   <data name="label8.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="responseTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="label2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="compareTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>299, 20</value>
@@ -4858,11 +4801,20 @@ Fan</value>
   <data name="soundexLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
   <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
+  <data name="helpToolStripMenuItem1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="metaphoneLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="&gt;&gt;metaphoneLabel.Parent" xml:space="preserve">
     <value>totaleTimeGroupBox</value>
@@ -4879,11 +4831,14 @@ Fan</value>
   <data name="aboutToolStripMenuItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="menuStrip1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bestand</value>
+  <data name="&gt;&gt;dmLabel.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
+  </data>
+  <data name="alternateTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutToolStripMenuItem</value>
@@ -4894,11 +4849,11 @@ Fan</value>
   <data name="phoneticComboBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
+  <data name="infoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
   <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
     <value>toolStripMenuItem1</value>
-  </data>
-  <data name="closeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="button1.ImageKey" xml:space="preserve">
     <value />
@@ -4906,14 +4861,20 @@ Fan</value>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>tabPage2</value>
   </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="label14.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="alternateTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="label8.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
   <data name="alternateTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value />
+  </data>
+  <data name="inputTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="tabPage2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
@@ -4945,14 +4906,17 @@ Fan</value>
   <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
+  <data name="compareTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
   <data name="totaleTimeGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="alternateTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="&gt;&gt;wordListTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4960,68 +4924,71 @@ Fan</value>
   <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
-  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="closeButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>Overlay</value>
   </data>
-  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="alternateTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
-  <data name="&gt;&gt;alternateTextBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;benaderingGroupBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="metaphoneLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="benaderingGroupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="benaderingGroupBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
-  </data>
-  <data name="helpToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>benaderingGroupBox2</value>
   </data>
   <data name="aboutToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>ImageBeforeText</value>
   </data>
-  <data name="dmLabel.Text" xml:space="preserve">
-    <value>&lt;no calculation&gt;</value>
-  </data>
   <data name="fileToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Bestand</value>
   </data>
   <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
   </data>
-  <data name="helpToolStripMenuItem1.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="benaderingGroupBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="&gt;&gt;alternateTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;totaleTimeGroupBox.Parent" xml:space="preserve">
-    <value>tabPage2</value>
+  <data name="benaderingGroupBox2.Text" xml:space="preserve">
+    <value>Benaderings Functie </value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="responseTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="closeToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
-    <value>tabPage2</value>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="dmetaphoneLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
   </data>
   <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
     <value>tabPage2</value>
   </data>
-  <data name="&gt;&gt;phoneticComboBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;alternateTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 314</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 44</value>
@@ -5035,14 +5002,11 @@ Fan</value>
   <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="fuzzyComboBox.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="fileToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
   </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+  <data name="&gt;&gt;dmLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dmetaphoneLabel.Parent" xml:space="preserve">
-    <value>totaleTimeGroupBox</value>
   </data>
   <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
@@ -5053,14 +5017,14 @@ Fan</value>
   <data name="closeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;phoneticComboBox.Name" xml:space="preserve">
+    <value>phoneticComboBox</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="label6.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="helpToolStripMenuItem1.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>None</value>
+  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="tabPage2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
@@ -5071,17 +5035,17 @@ Fan</value>
   <data name="fuzzyComboBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="responseTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>None</value>
+  <data name="soundexLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Tekst</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 98</value>
+  <data name="infoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 39</value>
   </data>
-  <data name="label5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
+  <data name="groupBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="label14.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -5092,29 +5056,38 @@ Fan</value>
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>413, 340</value>
   </data>
+  <data name="&gt;&gt;responseTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="infoLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
   <data name="&gt;&gt;closeButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="tabPage1.ImageKey" xml:space="preserve">
+    <value />
   </data>
   <data name="dmLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
+  <data name="tabPage2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="phoneticComboBox.MaxLength" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
+  <data name="wordListTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
   </data>
-  <data name="label12.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="menuStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 23</value>
+  </data>
+  <data name="primaryTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
   </data>
   <data name="groupBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
@@ -5122,23 +5095,23 @@ Fan</value>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="helpToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="phoneticComboBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="closeToolStripMenuItem.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;totaleTimeGroupBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
   </data>
-  <data name="label9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="wordListTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
-  <data name="&gt;&gt;compareTextBox.Name" xml:space="preserve">
-    <value>compareTextBox</value>
+  <data name="dmLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="primaryTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 20</value>
+  <data name="metaphoneLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="closeButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>334, 374</value>
@@ -5149,32 +5122,38 @@ Fan</value>
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="fuzzyComboBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
+  <data name="dmLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="label9.ImageKey" xml:space="preserve">
     <value />
   </data>
+  <data name="label3.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
   <data name="soundexLabel.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="tabControl1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
-    <value>Top</value>
+  <data name="menuStrip1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="originaleTextBox.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 98</value>
   </data>
-  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Sluiten</value>
+  <data name="label12.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="phoneticComboBox.Items3" xml:space="preserve">
+    <value>Double Metaphone</value>
   </data>
   <data name="infoLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 216</value>
   </data>
-  <data name="&gt;&gt;compareTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
@@ -5185,8 +5164,8 @@ Fan</value>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 22</value>
   </data>
-  <data name="menuStrip1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="closeButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;infoLabel.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -5194,8 +5173,8 @@ Fan</value>
   <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
     <value>405, 314</value>
   </data>
-  <data name="primaryTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
   </data>
   <data name="infoLabel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
@@ -5203,11 +5182,11 @@ Fan</value>
   <data name="originaleTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="&gt;&gt;infoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;inputTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="dmLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 13</value>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
   </data>
   <data name="dmetaphoneLabel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -5218,8 +5197,8 @@ Fan</value>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="label14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -5227,11 +5206,11 @@ Fan</value>
   <data name="benaderingGroupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="groupBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
@@ -5239,8 +5218,11 @@ Fan</value>
   <data name="&gt;&gt;responseTextBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
+  <data name="dmetaphoneLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="benaderingGroupBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 23</value>
@@ -5248,8 +5230,11 @@ Fan</value>
   <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="dmetaphoneLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="&gt;&gt;infoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fuzzyComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 13</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
@@ -5257,17 +5242,14 @@ Fan</value>
   <data name="originaleTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
   </data>
-  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
   <data name="dmLabel.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>FuzzyString</value>
   </data>
-  <data name="&gt;&gt;originaleTextBox.Name" xml:space="preserve">
-    <value>originaleTextBox</value>
+  <data name="metaphoneLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Algoritme</value>
@@ -5278,14 +5260,20 @@ Fan</value>
   <data name="label8.Text" xml:space="preserve">
     <value>Alternatief</value>
   </data>
-  <data name="infoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="helpToolStripMenuItem1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="fuzzyComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="button1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="compareTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="tabControl1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
@@ -5293,14 +5281,14 @@ Fan</value>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
   </data>
-  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="dmLabel.Text" xml:space="preserve">
+    <value>&lt;no calculation&gt;</value>
   </data>
   <data name="soundexLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
@@ -5314,59 +5302,68 @@ Fan</value>
   <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="fileToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;dmetaphoneLabel.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
   </data>
-  <data name="primaryTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 68</value>
+  <data name="inputTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 41</value>
+  </data>
+  <data name="helpToolStripMenuItem1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>SizeToFit</value>
   </data>
   <data name="closeButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
   </data>
-  <data name="label8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="&gt;&gt;inputTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="benaderingGroupBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
   </data>
-  <data name="wordListTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="closeToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>None</value>
+  <data name="aboutToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;soundexLabel.Name" xml:space="preserve">
     <value>soundexLabel</value>
   </data>
+  <data name="totaleTimeGroupBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
   <data name="label7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="infoLabel.ImageKey" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
+  <data name="button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;compareTextBox.Name" xml:space="preserve">
+    <value>compareTextBox</value>
   </data>
-  <data name="tabPage2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="&gt;&gt;originaleTextBox.Name" xml:space="preserve">
+    <value>originaleTextBox</value>
   </data>
-  <data name="tabPage1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="wordListTextBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="soundexLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="alternateTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
   </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>405, 314</value>
-  </data>
-  <data name="originaleTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="dmLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -5374,8 +5371,8 @@ Fan</value>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 23</value>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
@@ -5386,11 +5383,8 @@ Fan</value>
   <data name="&gt;&gt;label14.Name" xml:space="preserve">
     <value>label14</value>
   </data>
-  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="helpToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="helpToolStripMenuItem1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -5398,17 +5392,23 @@ Fan</value>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>Speed test</value>
   </data>
+  <data name="&gt;&gt;totaleTimeGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="closeToolStripMenuItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="responseTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 92</value>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="groupBox1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowOnly</value>
+  <data name="primaryTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Algoritme</value>
   </data>
   <data name="&gt;&gt;label16.Name" xml:space="preserve">
     <value>label16</value>
@@ -5419,8 +5419,8 @@ Fan</value>
   <data name="wordListTextBox.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
     <value />
   </data>
-  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="tabControl1.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>Normal</value>
   </data>
   <data name="primaryTextBox.WordWrap" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5428,20 +5428,20 @@ Fan</value>
   <data name="button1.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="tabPage2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="&gt;&gt;compareTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Sluiten</value>
   </data>
-  <data name="tabPage2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
+  <data name="fileToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Calculate</value>
   </data>
-  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="compareTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Left</value>
@@ -5449,14 +5449,11 @@ Fan</value>
   <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
   </data>
-  <data name="alternateTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="inputTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
   </data>
-  <data name="label3.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="wordListTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 16</value>
+  <data name="toolStripMenuItem1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="helpToolStripMenuItem1.Text" xml:space="preserve">
     <value>&amp;Help</value>
@@ -5470,11 +5467,11 @@ Fan</value>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 23</value>
   </data>
-  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="primaryTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
-  <data name="helpToolStripMenuItem1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="totaleTimeGroupBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5491,8 +5488,8 @@ Fan</value>
   <data name="totaleTimeGroupBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 206</value>
   </data>
-  <data name="dmetaphoneLabel.Text" xml:space="preserve">
-    <value>&lt;no calculation&gt;</value>
+  <data name="groupBox1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Soundex</value>
@@ -5503,32 +5500,32 @@ Fan</value>
   <data name="inputTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>299, 20</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Daitch-mokotoff</value>
   </data>
-  <data name="fuzzyComboBox.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tabPage1.ToolTipText" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;responseTextBox.Name" xml:space="preserve">
     <value>responseTextBox</value>
   </data>
-  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
+  <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="metaphoneLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
-  <data name="&gt;&gt;phoneticComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="wordListTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 272</value>
@@ -5545,11 +5542,11 @@ Fan</value>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 13</value>
   </data>
-  <data name="phoneticComboBox.Items" xml:space="preserve">
-    <value>Soundex</value>
+  <data name="metaphoneLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>totaleTimeGroupBox</value>
   </data>
   <data name="&gt;&gt;primaryTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5560,17 +5557,20 @@ Fan</value>
   <data name="primaryTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="totaleTimeGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="responseTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="&gt;&gt;primaryTextBox.Name" xml:space="preserve">
     <value>primaryTextBox</value>
   </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="responseTextBox.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopLeft</value>
+  <data name="fuzzyComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 21</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="label9.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -5578,46 +5578,46 @@ Fan</value>
   <data name="&gt;&gt;helpToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fuzzyComboBox.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="helpToolStripMenuItem1.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="label16.Text" xml:space="preserve">
     <value>Double Metaphone</value>
   </data>
-  <data name="helpToolStripMenuItem1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>SizeToFit</value>
-  </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;inputTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;totaleTimeGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
-  </data>
-  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
-  <data name="phoneticComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="originaleTextBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="totaleTimeGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="tabPage2.ToolTipText" xml:space="preserve">
-    <value />
+  <data name="button1.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>totaleTimeGroupBox</value>
-  </data>
-  <data name="closeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="closeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>English</value>
-  </metadata>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>English</value>
   </metadata>
 </root>
